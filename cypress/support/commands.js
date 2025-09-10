@@ -32,17 +32,13 @@ Cypress.Commands.add('logA11yViolation', (violation) => {
         const elemento = violation.nodes?.[0]?.html || violation.target || 'Elemento não disponível';
 
         const mensagemConsole = `
-            🔎 Problema A11y: ${violation.id}
-            ---
-            ❌ **Problema**:
-            ${problemaTraduzido}
-            ---
-            📊 **Impacto**:
-            ${impacto}
-            ---
-            🧩 **Elemento com problema**:
-            ${elemento}
-            `;
+----
+Descrição A11y: ${violation.id}
+Problema: ${problemaTraduzido}
+Impacto: ${impacto}
+Elemento com problema: ${elemento}
+----
+`;
 
         // A abordagem híbrida de logging é usada aqui:
         // 1. Usamos Cypress.log() para logs detalhados na GUI do Cypress Test Runner.
