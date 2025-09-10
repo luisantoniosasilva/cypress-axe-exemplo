@@ -1,0 +1,29 @@
+{
+    "impacts": {
+      "critical": "🚨 Crítico",
+      "serious": "⚠️ Grave",
+      "moderate": "⚡ Moderado",
+      "minor": "ℹ️ Leve"
+    },
+    "translations": {
+      "aria-required-children": "O elemento possui filhos que não são permitidos pela especificação ARIA",
+      "aria-roles": "O atributo \"role\" não é válido ou não é permitido neste elemento",
+      "aria-valid-attr": "O atributo ARIA usado não é válido",
+      "aria-valid-attr-value": "O valor do atributo ARIA não é válido",
+      "button-name": "O botão não possui nome acessível (texto, aria-label ou aria-labelledby)",
+      "color-contrast": "O contraste entre cor de fundo e texto é insuficiente",
+      "document-title": "A página não possui título definido",
+      "duplicate-id": "Existem IDs duplicados no documento",
+      "form-field-multiple-labels": "Um campo de formulário possui múltiplos rótulos associados",
+      "frame-title": "O iframe não possui título acessível",
+      "heading-order": "A hierarquia de cabeçalhos (h1, h2, h3...) está fora de ordem",
+      "image-alt": "A imagem não possui texto alternativo (atributo alt)",
+      "input-button-name": "Um botão do tipo input não possui nome acessível",
+      "label": "Um campo de formulário não possui rótulo associado",
+      "landmark-one-main": "A página deve possuir exatamente uma região principal (role=\"main\")",
+      "link-name": "O link não possui texto acessível ou descrição clara",
+      "list": "A lista não possui itens ou contém elementos inválidos",
+      "listitem": "Um item de lista não está dentro de uma lista (ul/ol)",
+      "region": "As regiões da página (landmarks) precisam ter um nome único (aria-label ou aria-labelledby)"
+    }
+  }
